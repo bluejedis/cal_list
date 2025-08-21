@@ -1,4 +1,4 @@
-3(1+1+1(2))+1
+2554 +2
 
 - [ ] base
   - [ ] Limit&continuity
