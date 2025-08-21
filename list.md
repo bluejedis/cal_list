@@ -1,27 +1,28 @@
+3(1+1+1(2))+1
 
 - [ ] base
   - [ ] Limit&continuity
     - [ ] 第1讲 函数极限与连续
-      - [ ] 一、函数极限的定义及使用
-      - [ ] 二、函数极限的计算
-      - [ ] 三、函数极限的存在性
-      - [ ] 四、函数极限的应用——连续与间断
+      - [ ] 一、定义及使用
+      - [ ] 二、计算
+      - [ ] 三、存在性
+      - [ ] 四、应用——连续与间断
     - [ ] 第2讲 数列极限
-      - [ ] 一、数列极限的定义及使用
-      - [ ] 二、数列极限的存在性与计算
+      - [ ] 一、定义及使用
+      - [ ] 二、存在性与计算
   - [ ] differential
     - [ ] 第3讲 概念
       - [ ] 一、导数定义（导数在一点的问题）
       - [ ] 二、微分
     - [ ] 第4讲 计算
       - [ ] 一、基本求导公式
-      - [ ] 二、复合函数求导
-      - [ ] 三、隐函数求导
-      - [ ] 四、反函数求导
-      - [ ] 五、分段函数求导（含绝对值）
-      - [ ] 六、对数求导法
-      - [ ] 七、幂指函数求导法
-      - [ ] 八、参数方程确定的函数求导
+      - [ ] 二、复合..
+      - [ ] 三、隐..
+      - [ ] 四、反..
+      - [ ] 五、分段..（含绝对值）
+      - [ ] 六、<span style="border: 1px solid black; padding: 5px; display: inline-block;">对数</span>..
+      - [ ] 七、幂指..法
+      - [ ] 八、参数方程确定的..
       - [ ] 九、高阶导数
     - [ ] 第5讲 一元函数微分学的应用（一）——几何应用
       - [ ] 一、研究对象
@@ -41,10 +42,10 @@
       - [ ] 四、反常积分的判敛
     - [ ] 第9讲 计算
       - [ ] 一、基本积分公式
-      - [ ] 二、不定积分的计算
-      - [ ] 三、定积分的计算
-      - [ ] 四、变限积分的计算
-      - [ ] 五、反常积分的计算
+      - [ ] 二、不定积分
+      - [ ] 三、定积分
+      - [ ] 四、变限积分
+      - [ ] 五、反常积分
     - [ ] 第10讲 一元函数积分学的应用（一）——几何应用
       - [ ] 一、研究对象
       - [ ] 二、研究内容
@@ -57,9 +58,12 @@
   - [ ] Multi
     - [ ] 第13讲 多元函数微积分
       - [ ] 概念
+        - [ ] 驻点:$f'(x)=0$
       - [ ] 复合函数求导法（链式求导规则）
       - [ ] 隐函数求导法
+        - [ ] $\frac{\partial z}{\partial x} = \boxed{-\frac{F_x}{F_z}}$, $\frac{\partial z}{\partial y} = -\frac{F_y}{F_z}$
       - [ ] 四、多元函数的极、最值
+        - [ ] $L(x,y,\lambda) = f(x,y) + \boxed{\lambda} \phi(x,y)$
       - [ ] 五、偏微分方程（含偏导数的等式）
     - [ ] 第14讲 二重积分
       - [ ] 一、概念
@@ -67,12 +71,19 @@
     - [ ] Multi integral
       - [ ] 第15讲 预备知识(空间解析几何&场论)
         - [ ] 一、向量的运算及其运用
+          - [ ] $|\vec{a}||\vec{b}|\boxed{\sin\theta}$
         - [ ] 二、平面、直线及位置关系
-        - [ ] 三、空间曲线的切线与法平面
+        - [ ] 三、空间<span style="border-bottom: 3px dotted black;">曲线</span>的切线与法平面
+          - [ ] $\frac{x-x_0}{x'(t_0)} = \frac{y-y_0}{y'(t_0)} = \frac{z-z_0}{z'(t_0)}$
+          - [ ] $\boxed{x'(t_0)}(x-x_0) + \boxed{y'(t_0)}(y-y_0) + z'(t_0)(z-z_0) = 0$
         - [ ] 四、空间曲面的切平面与法线
         - [ ] 五、空间曲线在坐标面上的投影
         - [ ] 六、旋转曲面：
+          - [ ]  $f(\boxed{\pm\sqrt{x^2+y^2}}, z)=0$
         - [ ] 七、场论初步
+          - [ ] $\text{grad } u = \nabla u = (\frac{\partial u}{\partial x}, \frac{\partial u}{\partial y}, \frac{\partial u}{\partial z})$
+          - [ ] $\text{div } \vec{F} = \nabla \cdot \vec{F} = \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} + \frac{\partial R}{\partial z}$
+          - [ ]  $\text{curl } \vec{F} = \nabla \times \vec{F} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ P & Q & R \end{vmatrix}$
       - [ ] 第16讲 多元函数积分学
         - [ ] Triple积分
           - [ ] 1.概念与对称性
