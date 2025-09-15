@@ -1,0 +1,103 @@
+# concept
+- 邻域$U(M_0, \delta)$;$\mathring{U}$
+    - 内、外、边界点
+    - 开集、闭集 ← 开区间、闭..
+    - E内部
+        - 单连通
+        - 多..
+- 极限
+    - >去心邻域$(x_0,y_0)$内有定义
+    - (x,y)以任意方式→$(x_0,y_0)$
+    - f(x,y)均→A
+- 偏导
+    - 求偏导
+        - >偏导： 
+            - **另一个**直接视为**常数**
+                - 对当前变量，求导**务必尽**(lny还要导
+    - 混合偏导
+        - (先算哪个, 哪个sign写在前
+    - ==连续==性 
+        - 判定
+            - ？函数
+                - 连续
+                - 可微
+            - 导数
+                - 存在
+                - 连续
+        - ↑ 通式通法是什么？
+            - 能不能由这个例题总结？
+                - ![Screenshot_2025-09-15-18-58-51-390_com](https://bluejedis.github.io/picx-images-hosting/calculus/Screenshot_2025-09-15-18-58-51-390_com.microsoft.emmx.canary-edit.3k8datk4qz.jpg)
+                    - A.项求连续
+                        - 令$\rho=x^2+y^2$之后，分母不是还是有$\rho$吗
+
+# 法则
+
+## ==链式==(复合函数求偏导
+- >${{f'}_1}$即$\frac{\partial z}{\partial u}$，${{f'}_2}$即$\frac{\partial z}{\partial v}$
+    - regarded as 常数,but ${{f'}_1}$  ${{f'}_2}$仍是关于u、v的函数
+        - ↑二次求时still need分u、v及其内部x、y表达式
+        - notice **乘法**法则
+            - 前导后不导+前不导后导
+    - >二阶偏导连续，求导次序不影响
+        - ${{f'}_{12}}$ = ${{f'}_{21}}$
+            
+       
+## 隐函数
+- 存在定理
+    - >保证对应法则'唯一性
+    - 定理1($F(x,y)=0$
+        - 点$(x_0,y_0)$某一U内, have 连续偏导数
+            - $F(x_0,y_0)=0$
+            - ${F'}_y(x_0,y_0)≠0$
+        - →有隐函数求导公式
+            - $\frac{dy}{dx}=-\frac{{F'}_x}{{F'}_y}$
+            - ↑对原方程的x**求导**
+    -..2($F(x,y,z)=0$
+        - ..$(x_0,y_0,z_0)$..,..
+            - $F(x_0,y_0,z_0)=0$
+            - ${F'}_z(x_0,y_0,z_0)≠0$
+        - →..
+            - $\frac{\partial z}{\partial x}=-\frac{{F'}_x}{{F'}_z}$
+            - $\frac{\partial z}{\partial y}=-\frac{{F'}_y}{{F'}_z}$
+            - ↑分别对..x、y 求偏导
+        - use:
+            - 哪个在括号外,哪个就regard as z
+                - x(y,z); y(x,z)
+                    - 此时,即 ${F'}_x≠0$ ${F'}_y≠0$
+- count
+    - sinxy
+        - 是一个整体
+    - 给x=0
+        - 代入隐函数方程等式解出y
+# 极值&最值
+- concept
+    - 极值
+        - 广义
+            - >邻域
+        - 真正的
+            -  >去心..
+                - (也可取等号, but must in$(x_0,y_0)$这个点
+- 无条件极值
+    - 必要condition
+        - 取极值&一阶偏导exist
+    - 充分
+        - ![IMG_20250915_181016](https://bluejedis.github.io/picx-images-hosting/calculus/IMG_20250915_181016.7snkkllqvq.jpg)
+        - ![Screenshot_2025-09-15-18-14-42-418_com](https://bluejedis.github.io/picx-images-hosting/calculus/Screenshot_2025-09-15-18-14-42-418_com.microsoft.emmx.canary-edit.45i0x2u3yd.jpg)
+- 条件极值 & 拉格朗日数乘
+    - >目标函数$u=f(x,y,z)$
+        - 在条件 $\begin{aligned} \phi (x+y+z)=0 \\ \psi (x+y+z)=0 \end{aligned}$ 下的最值
+    - step
+        - ①构造函数$F(x,y,z,\lambda,\mu)=f(x,y,z)+\lambda \phi (x+y+z) + \mu \psi (x+y+z)$← 引入条件
+        - ②对构造function 各自求五个变量偏导
+            - 令=0
+        - ③解方程组
+            - 得点$p_i$, 取$f(p_i)$中的max、min 为极值
+- --
+- 着重sum一下 一元、多元，的通式通法判据是什么
+    - 函数
+        - 连续
+        - 可微
+    - 导数
+        - 存在
+        - 连续
+   
