@@ -1,0 +1,4 @@
+- 复合函数求导
+    - >分清楚是几层嵌套
+    - eg.[$\frac{1}{4}sin^2 2x$]'
+        -  ![](https://bluejedis.github.io/picx-images-hosting/calculus/IMG_20251015_163450.7w77p35ltm.jpg)
