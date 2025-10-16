@@ -1,5 +1,8 @@
 # F-Limit
 - **Taylor**
+    - 本质：
+        - 曲线在一点可用切线表示 -- 拟合效果更好→  1阶+...+n阶多项式
+            - ![Screenshot_2025-10-16-17-12-58-428_com](https://bluejedis.github.io/picx-images-hosting/calculus/Screenshot_2025-10-16-17-12-58-428_com.microsoft.emmx.canary-edit.491o31394m.jpg)
     - >展开的前3项rem也很important
     - 原式include分式
         - 展开无分数format
@@ -39,7 +42,16 @@
         - $lim_{x→0}(1+x)^{\frac{1}{x}}$
             - e
 ---
+---
 # 微分
-- csc求导
+- csc=$\frac{1}{sin}$求导
+    - ![](https://bluejedis.github.io/picx-images-hosting/calculus/IMG_20251016_083628.6bhgqkldbd.jpg)
+    - 对比记tanx
+        - ![](https://bluejedis.github.io/picx-images-hosting/calculus/IMG_20251016_083602.2a5hc6hfn0.jpg)
 - 复合
     - 多重嵌套
+        - [f(g(u))]'
+            - f'(g(u))*g'(u)*u'
+
+---
+---
